@@ -1,0 +1,5 @@
+spotipy
+telepot
+mutagen
+dwytsongs
+deezloader
