@@ -1,0 +1,59 @@
+{
+    "name": "Spotify and Deezer Downloader",
+    "description": "Spotify and Deezer Downloader",
+    "keywords": [
+      "telegram",
+      "spotify",
+      "music",
+      "good"
+    ],
+    "repository": "https://github.com/c311at/DeezloaderAn0n_bot",
+    "env": {
+      "WEBHOOK": {
+        "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+        "value": "ANYTHING"
+      },
+      "APP_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": ""
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": ""
+      },
+      "CLIENT_ID": {
+        "description": "spotify client ID",
+        "value": ""
+      },
+      "CLIENT_SECRET": {
+        "description": "spotify client scret key",
+        "value": "",
+        "required": false
+      },
+      "USERNAME": {
+        "description": "deezer username",
+        "value": "",
+        "required": true
+      },
+      "DEEZER_PASSWORD": {
+        "description": "deezer password",
+        "value": "",
+        "required": true
+      },
+      "TELEGRAM_BOT_TOKEN": {
+        "description": "telegram bot token",
+        "value": "",
+        "required": true
+      },
+      "DEEZER_TOKEN": {
+        "description": "Deezer token #Your Deezer token log (for get it log in Deezer from your PC press f12 and find arl cookie)",
+        "value": "",
+        "required": true
+      }
+    },
+    "addons": [
+    ],
+    "buildpacks": [{
+      "url": "heroku/python"
+    }]
+  }
