@@ -1,5 +1,4 @@
-spotipy
 telepot
-mutagen
+acrcloud
 dwytsongs
 deezloader
